@@ -73,11 +73,10 @@
         <x:Double x:Key="Width">754</x:Double>
         <x:Boolean x:Key="IsPinned">True</x:Boolean>
         <x:Double x:Key="Height">743</x:Double>
-        <av:PointCollection x:Key="ConnectorLocation">360,77.5 360,157</av:PointCollection>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID0</x:Reference>
+      <x:Null />
     </Flowchart.StartNode>
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
@@ -775,21 +774,6 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:MessageBox>
-      </Sequence>
-    </FlowStep>
-    <FlowStep x:Name="__ReferenceID0">
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">260,157</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Prueba" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_80">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
       </Sequence>
     </FlowStep>
     <FlowStep>
