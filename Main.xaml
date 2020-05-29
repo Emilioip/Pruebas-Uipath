@@ -70,13 +70,14 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">330,2.5</av:Point>
         <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">360,77.5 360,107.5 370,107.5 370,167</av:PointCollection>
         <x:Double x:Key="Width">754</x:Double>
         <x:Boolean x:Key="IsPinned">True</x:Boolean>
         <x:Double x:Key="Height">643</x:Double>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Null />
+      <x:Reference>__ReferenceID0</x:Reference>
     </Flowchart.StartNode>
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
@@ -1027,10 +1028,10 @@
         </ui:MessageBox>
       </Sequence>
     </FlowStep>
-    <FlowStep>
+    <FlowStep x:Name="__ReferenceID0">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">240,136.04</av:Point>
+          <av:Point x:Key="ShapeLocation">270,167</av:Point>
           <av:Size x:Key="ShapeSize">200,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
